@@ -30,6 +30,8 @@ jobs:
           base_indepth: yes
           repositories_affiliations: collaborator
           repositories_forks: true
+          optimize: css, xml, svg
+          experimental_features: --optimize-svg
           config_display: column
           config_octicon: yes
           config_timezone: UTC
