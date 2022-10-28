@@ -25,15 +25,15 @@ jobs:
 
           # Options
           user: real-yfprojects
-          # template: classic
-          template: markdown
+          template: classic
+          # template: markdown
           base: header, activity, repositories, metadata
           base_indepth: yes
           repositories_affiliations: owner
           repositories_forks: yes
           optimize: css, xml, svg
           experimental_features: --optimize-svg
-          config_output: markdown
+          # config_output: markdown
           config_display: columns
           config_octicon: yes
           config_timezone: UTC
