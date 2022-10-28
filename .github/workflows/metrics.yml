@@ -2,7 +2,7 @@
 name: Metrics
 on:
   # Schedule updates (each hour)
-  schedule: [{cron: "0 0 * * *"}]
+  schedule: [{ cron: "0 0 * * *" }]
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
 jobs:
@@ -27,6 +27,10 @@ jobs:
           user: real-yfprojects
           template: classic
           base: header, activity, repositories, metadata
+          base_indepth: yes
+          repositories_affiliations: collaborator
+          repositories_forks: true
+          config_display: column
           config_octicon: yes
           config_timezone: UTC
           config_twemoji: yes
@@ -56,4 +60,3 @@ jobs:
           plugin_notable: yes
           plugin_notable_from: organization
           plugin_notable_types: commit
-
