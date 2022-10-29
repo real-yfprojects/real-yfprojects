@@ -33,7 +33,6 @@ jobs:
           base: header, activity, repositories, metadata
           base_indepth: yes
           repositories_affiliations: owner, collaborator
-          repositories_forks: yes
           optimize: css, xml, svg
           experimental_features: --optimize-svg
           # config_output: markdown
