@@ -1,6 +1,9 @@
 # Visit https://github.com/lowlighter/metrics#-documentation for full reference
 name: Metrics
 on:
+  push:
+    paths: 
+      - .github/workflows/metrics.yml
   # Schedule updates (each hour)
   schedule: [{ cron: "0 0 * * *" }]
   # Lines below let you run workflow manually and on each commit
