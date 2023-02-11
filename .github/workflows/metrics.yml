@@ -5,7 +5,7 @@ on:
     paths: 
       - .github/workflows/metrics.yml
   # Schedule updates (each hour)
-  schedule: [{ cron: "0 0 * * *" }]
+  schedule: [{ cron: "0 20,22 * * *" }]
   # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
 jobs:
