@@ -36,6 +36,7 @@ jobs:
           optimize: css, xml, svg
           experimental_features: --optimize-svg
           # config_output: markdown
+          config_padding: 0
           # config_display: columns
           config_octicon: yes
           config_timezone: UTC
