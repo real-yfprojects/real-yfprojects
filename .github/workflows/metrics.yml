@@ -65,6 +65,7 @@ jobs:
           plugin_lines_history_limit: 1
           plugin_lines_repositories_limit: 6
           plugin_lines_sections: base
+          plugin_lines_delay: 30
           plugin_traffic: yes
           plugin_notable: yes
           plugin_notable_from: all
